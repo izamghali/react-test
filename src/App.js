@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components';
+
+let test = <p>Still under maintenance</p>;
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Navbar />
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World!
-        </p>
+        { test }
         <a
           className="App-link"
           href="https://reactjs.org"
