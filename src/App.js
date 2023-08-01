@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components';
+import TabTitle from './components';
 
 let test = <p>Still under maintenance</p>;
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+        <TabTitle />
         <img src={logo} className="App-logo" alt="logo" />
         { test }
         <a
