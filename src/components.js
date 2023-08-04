@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.scss';
 
 export function TabTitle() {
 
@@ -50,6 +51,7 @@ export function BodyThought(props) {
         <>
         <form onSubmit={handleSubmit}>
             <input
+                className="textInput"
                 type="text" 
                 onChange={handleTextChange} // if we don't fill onChange, we can't type
                 value={text} 
