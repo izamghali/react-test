@@ -7,7 +7,7 @@ function App() {
 
   const [ thoughts, setThoughts ] = useState([{
     thoughtId: 1,
-    thoughtText: "hello world"
+    thoughtText: "First thought"
   }, {
     thoughtId: 2, 
     thoughtText: "This will be gone in 15 seconds"
